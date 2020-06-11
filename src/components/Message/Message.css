@@ -1,0 +1,115 @@
+.body{
+  border: 0px solid black;
+  height:525px;
+  bottom:0;
+  overflow-y:scroll;
+  
+}
+.foot{
+  border: 0px solid blue;
+  height: 75px;
+}
+.image{
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 100%;
+  padding-top: 5px;
+  float: left;
+}
+.imagee{
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-radius: 100%;
+  padding-top: 5px;
+  
+}
+.imagee img{
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 100%;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.image img{
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 100%;
+  margin-left: 20px;
+  cursor: pointer;
+}
+#message{
+  border-radius: 20px;
+  width: 80%;
+  margin-left: 40px;
+  float: left;
+  text-align: justify;
+}
+.emojis{
+  float: left;
+  font-size: 25px;
+  margin-top: 4px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.emoji{
+  float:right;
+  font-size: 25px;
+  margin-top: 4px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.emoji .fa{
+margin-left: 30px;
+font-size: 17px;
+}
+.fa-microphone{
+  color: violet;
+}
+.sender{
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
+  display:block;
+  padding: 0 0 0 10px;
+}
+.sender .senderMessage{
+  float: right;
+  overflow: hidden;
+  margin: 26px 20px;
+  background: #ECE5DD none repeat scroll 0 0;
+ color:#fff;
+  border-radius: 10px;
+ font-size: 14px;
+ margin: 0;
+ color:#666;
+ padding: 6px 30px 10px 20px;
+ margin-right: 12px;
+}
+.receiver{
+  width: 100%;
+  margin-top: 10px;
+  height: 50px;
+  display:block;
+  padding: 0 0 0 10px;
+}
+.receiver .receiverMessage{
+  float: left;
+  overflow: hidden;
+  margin: 26px 20px;
+  background: #fff none repeat scroll 0 0;
+ color:#fff;
+  border-radius: 10px;
+ font-size: 14px;
+ margin: 0;
+ color:#666;
+ padding: 6px 30px 10px 20px;
+ margin-right: 12px;
+}
+@media only screen and (max-width:730px){
+  
+}
+

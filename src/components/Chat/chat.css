@@ -1,0 +1,130 @@
+.foot{
+  border: 0px solid blue;
+  height: 200px;
+}
+.userPrbtn{
+  width: 100%;
+  height: 80px;
+  background-color:rgba(238, 170, 221, 0.068);
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.userPrbtn .userName{
+  float: left;
+  margin-left: 50px;
+}
+.userPrbtn .badge{
+  float: right;
+  display: none;
+}
+.emojis{
+  float: left;
+  font-size: 25px;
+  margin-top: 4px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.Profiles{
+  width: 30%;
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #EDD5;
+  height: 650px;
+  overflow-y: auto;
+}
+.USERS{
+  height: 600px;
+  overflow-y: auto;
+}
+.container {
+  
+  background: #FFFFFF;
+  border-radius: 0px;
+  height: 650px;
+  width: 70%;
+  float: left;
+  overflow-y: hidden;
+}
+textarea{
+  width: 80%;
+  height: 50px;
+  border: none;
+  margin-left: 40px;
+  margin-top: 4px;
+  border: 1px solid;
+  border-radius: 14px;
+  text-align: initial;
+float: left;
+ 
+
+ 
+}
+.section{
+  width: 70%;
+  float: left;
+  height: 640px;
+  border: 0px solid salmon;
+}
+.btnSend{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  border:none;
+  margin-top: 4px;
+  margin-left: 10px;
+  border:1px solid #ccc;
+}
+.sideHead{
+  width: 100%;
+  height: 60px;
+  background-color: #EDD5;
+  overflow-y: auto;
+}
+.sideHead .fa{
+  float: right;
+  margin-right: 19px;
+  margin-top: 10px;
+  color: gray;
+  cursor: pointer;
+}
+.rightNav{
+  float:right;
+  width: 0%;
+  border: 0px solid black;
+  height: 300px;
+  border-radius: 0px;
+  overflow-y: auto;
+  margin-left: 70px;
+  position: fixed;
+  z-index: 1;
+  
+  bottom:75px;
+  left: 4;
+  margin-top: 44px;
+  background-color:#EDD5;
+  
+  border-radius: 4px;
+  overflow: hidden;
+  transition: 0.4s;
+}
+.close{
+  font-size: 29px;
+  margin-right: 10px;
+}
+@media only screen and (max-width:530px){
+  .Profiles{
+    width: 530px;
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #EDD5;
+    height: 650px;
+    overflow-y: auto;
+  }
+  .section{
+    width: 80%;
+    float: left;
+    height: 640px;
+    border: 0px solid salmon;
+    display: none;
+  }
+}
